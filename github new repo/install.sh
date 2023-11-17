@@ -9,7 +9,6 @@ if [ $? -ne 0 ]; then
     gh auth login && gh repo list
     fi
 
-
     read -p 'Enter repository name: 'name
     CDIR=$(pwd)
 
